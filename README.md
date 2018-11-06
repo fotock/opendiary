@@ -45,7 +45,9 @@ OAuth 2.0的运行流程如下图
 <div class="doc-detail-bd" id="bd" data-spm-anchor-id="0.7629140.0.i8.7dbe1780r26ivK">
 <h3>一.协议概述</h3> 
 <p>协议分为两部分： header 以及 payload</p> 
+  
 <p>示例：</p> 
+  
 ```json
 {
   "header":{
