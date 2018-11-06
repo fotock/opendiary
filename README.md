@@ -350,6 +350,7 @@ OAuth 2.0的运行流程如下图
 <h3>1.4 payload参数协议</h3> 
 <p>payload根据namespace不同分为Discovery、Control、Query三类，详见设备发现、设备控制和设备状态查询。</p>
 ### 设备发现
+
 ```json
 {
   "header":{
@@ -365,6 +366,7 @@ OAuth 2.0的运行流程如下图
 ```
   
 <h4>响应</h4>
+
 ```json
 {
   "header":{
@@ -499,6 +501,7 @@ OAuth 2.0的运行流程如下图
 #### 设备控制
 示例
 <p>设备打开</p>
+
 ```json
 {
   "header":{
@@ -522,6 +525,7 @@ OAuth 2.0的运行流程如下图
 ```
   
 <p>正常响应</p>
+
 ```json
 {
   "header":{
@@ -537,6 +541,7 @@ OAuth 2.0的运行流程如下图
 ```
 
 <p>异常响应</p>
+
 ```json
 {
   "header":{
@@ -551,4 +556,4 @@ OAuth 2.0的运行流程如下图
          "message":"device not support"
     }
 }
-  ```
+```
