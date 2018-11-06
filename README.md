@@ -363,7 +363,7 @@ OAuth 2.0的运行流程如下图
    },
    "payload":{
        "accessToken":"access token"
-    ｝
+   }
 }
 ```
   
